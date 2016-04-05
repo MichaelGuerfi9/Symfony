@@ -1,0 +1,19 @@
+leaderboard_homepage:
+    path:     /
+    defaults: { _controller: LeaderboardBundle:Default:index }
+
+leaderboard_deathsmiles:
+    path: /deathsmiles
+    defaults: {_controller: LeaderboardBundle:Pink:deathsmiles}
+
+leaderboard_mushihimesama:
+    path: /mushihimesama
+    defaults: {_controller: LeaderboardBundle:Pink:mushihimesama}
+
+leaderboard_crimzon_clover:
+    path: /crimzon_clover/{type}
+    defaults: {_controller: LeaderboardBundle:NotPink:crimzon_clover,type:typeZ}
+
+leaderboard_ikaruga:
+    path: /ikaruga
+    defaults : {_controller: LeaderboardBundle:NotPink:ikaruga}
